@@ -67,15 +67,20 @@ main {
 section.branch {
     display: flex;
     flex-direction: column;
+    /* test */
+    margin-bottom: 40px;
+}
+
+.centered {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col {
     margin-top: 2em;
     border-radius: 8px;
     background-color: rgb(181, 221, 255);
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .primary {
@@ -107,12 +112,41 @@ section.branch {
     text-align: center;
 }
 
+/* SECOND SECTION */
 
+.jumbo {
+    background-color: rgb(151, 146, 228);
+    width: 100%;
+    padding: 4em 0;
 
+    display: flex;
+    flex-direction: column;
 
+}
 
+.inner.centered {
+    padding: 2em;
+}
 
+.jumbo .inner:last-child {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
 
+.inner.centered img {
+    max-width:100%;
+    height: auto;
+}
+
+.inner.centered:last-child button {
+    padding: 1em 2em;
+    background-color: rgb(151, 146, 228);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    /* test */
+}
 
 
 
