@@ -270,6 +270,16 @@ section.branch {
     margin: 1rem 0;
 }
 
+.getstarted-container p:nth-of-type(2) {
+    color: white;
+    font-size: 2rem;
+}
+
+.getstarted-container p:nth-of-type(3) {
+    color: rgb(253, 193, 95);
+    font-size: 3rem;
+}
+
 
 
 
