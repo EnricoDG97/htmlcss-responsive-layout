@@ -220,9 +220,42 @@ section.branch {
 
 .benefit p:first-of-type {
     font-size: 4rem;
+    font-style: italic;
 }
 
+/* FIFTH SECTION - ABOUT US */
 
+.aboutus-inner {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aboutus-text {
+    width: 70%;
+    padding: 0 1rem;
+}
+
+.aboutus-text h2 {
+    margin-bottom: 2rem;
+}
+
+.aboutus-text p:first-of-type {
+    margin-bottom: 2rem;
+}
+
+.aboutus-img {
+    width: 30%;
+    padding: 0 1rem;
+}
+
+.aboutus-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
 
