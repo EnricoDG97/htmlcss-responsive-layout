@@ -1,6 +1,8 @@
 /* ////////////   NAVBAR   /////////////// */
 
 nav {
+    height: 80px;
+    max-width: 476px;
     width: 100%;
     background-color: rgb(0, 132, 253);
     padding: 1em;
@@ -48,9 +50,109 @@ nav {
 }
 
 #nav-right .nav-menu {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: white;
     cursor: pointer;
 }
 
 /* ////////////   MAIN   /////////////// */
+
+main {
+    max-width: 476px;
+    padding-top: 100px;
+}
+
+/* FIRST SECTION */
+
+section.branch {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    margin-top: 2em;
+    border-radius: 8px;
+    background-color: rgb(181, 221, 255);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    padding: 2rem;
+    /* test */
+    /* height: 50%; */
+}
+
+.img-container {
+    /* test */
+    /* width: 50%; */
+    width: 100%;
+}
+
+.img-container img {
+    /* test */
+    max-width:100%;
+    max-height:100%;
+    height: auto;
+}
+
+.secondary {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:476px) {
+    
+}
