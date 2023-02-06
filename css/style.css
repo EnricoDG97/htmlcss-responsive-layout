@@ -120,7 +120,6 @@ section.branch {
 
     display: flex;
     flex-direction: column;
-
 }
 
 .inner.centered {
@@ -302,7 +301,7 @@ footer {
 /* MEDIA QUERIES */
 /* /////////////////////////////////////// */
 
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) {
     /* NAV */
     nav {
         max-width: 768px;
@@ -362,6 +361,35 @@ footer {
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1200px) {
-    
+@media screen and (min-width:769px) {
+    /* NAV */
+    nav {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+    main {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* SECOND SECTION */
+    .jumbo {
+        flex-direction: row;
+        padding: 4rem 4rem;
+        align-items: flex-end;
+        padding: 4rem 8rem;
+    }
+    #first-plan img {
+      padding-bottom: 8rem;
+    }
+    #second-plan img {
+        max-width: 80%;
+        height: auto;
+    }
+    /* FOURTH SECTION BENEFITS */
+    .outer-container .benefits-container .benefit {
+        width: calc(100% / 3 - (1rem / 3 * 2));
+    }
 }
