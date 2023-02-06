@@ -197,12 +197,11 @@ section.branch {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    /* test */
-    gap: 1rem;
+    
 }
 
 .benefits .benefits-container .benefit {
-    width: calc(50% - 1rem / 2);
+    width: 100%;
     margin-bottom: 2rem;
     padding: 2rem;
     background-color: white;
