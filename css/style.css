@@ -1,0 +1,56 @@
+/* ////////////   NAVBAR   /////////////// */
+
+nav {
+    width: 100%;
+    background-color: rgb(0, 132, 253);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+}
+
+#nav-left {
+    cursor: pointer;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: flex-end;
+
+    /* test */
+    /* position: relative; */
+}
+
+#nav-links {
+    width: 50%;
+}
+
+#nav-right #nav-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 1em;
+
+    /* test */
+    /* position: absolute; */
+
+    display: none;
+}
+
+#nav-right #nav-links li {
+    /* test */
+    background-color: aqua;
+}
+
+#nav-right .nav-menu {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+/* ////////////   MAIN   /////////////// */
