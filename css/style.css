@@ -229,7 +229,6 @@ section.branch {
     margin: 2rem 0;
     display: flex;
     justify-content: space-between;
-
 }
 
 .aboutus-text {
@@ -257,10 +256,19 @@ section.branch {
     border-radius: 50%;
 }
 
+/* SIXTH SECTION GET STARTED */
 
+.getstarted {
+    text-align: center;
+    color: white;
+    background-color: rgb(151, 146, 228);
+    padding: 4rem 0;
+}
 
-
-
+.getstarted-container button {
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+}
 
 
 
