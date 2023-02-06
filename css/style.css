@@ -180,11 +180,48 @@ section.branch {
     border-radius: 50%;
 }
 
+/* FOURTH SECTION - BENEFITS */
 
+.benefits {
+    background-color: rgb(151, 146, 228);
+    color: rgb(151, 146, 228);;
+}
 
+.outer-container h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
 
+.outer-container .benefits-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    /* test */
+    gap: 1rem;
+}
 
+.benefits .benefits-container .benefit {
+    width: calc(50% - 1rem / 2);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+}
 
+.benefit button:last-child {
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    background-color: rgb(151, 146, 228);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.benefit p:first-of-type {
+    font-size: 4rem;
+}
 
 
 
