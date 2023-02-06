@@ -32,6 +32,7 @@ nav {
 #nav-right #nav-links {
     width: 100%;
     height: 100%;
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -197,7 +198,6 @@ section.branch {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    
 }
 
 .benefits .benefits-container .benefit {
@@ -227,13 +227,14 @@ section.branch {
 
 .aboutus-inner {
     margin: 2rem 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .aboutus-text {
-    width: 70%;
     padding: 0 1rem;
+    font-size: 1.5rem;
 }
 
 .aboutus-text h2 {
@@ -245,15 +246,19 @@ section.branch {
 }
 
 .aboutus-img {
-    width: 30%;
     padding: 0 1rem;
 }
 
 .aboutus-img img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
+    margin: 2rem 0;
+}
+
+.aboutus-img p {
+    font-size: 1.5rem;
 }
 
 /* SIXTH SECTION GET STARTED */
@@ -293,27 +298,70 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* /////////////////////////////////////// */
+/* MEDIA QUERIES */
+/* /////////////////////////////////////// */
 
+@media screen and (min-width:577px) and (max-width:768px) {
+    /* NAV */
+    nav {
+        max-width: 768px;
+    }    
+    #nav-right #nav-links {
+        display: flex;
+    }
+    #nav-right .nav-menu {
+        display: none;
+    }
+    main {
+        max-width: 768px;
+    }
+    /* FIRST SECTION */
+    section.branch {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .primary {
+        width: calc(100% / 3 * 2 - (10px / 3 * 1));
+    }
+    .img-container {
+        width: 60%;
+        align-self: flex-start;
+        padding-left: 2rem;
+    }
+    .secondary {
+        width: calc(100% / 3 - (10px / 3 * 2));
+    }
+    .secondary:first-child {
+        width: calc(100% / 3 - (10px / 3));
+    }
+    /* THIRD SECTION */
+    .testimonial {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    /* FOURTH SECTION BENEFITS */
+    .outer-container .benefits-container {
+        gap: 1rem;
+    }
+    .outer-container .benefits-container .benefit {
+        width: calc(100% / 2 - (1rem / 2));
+    }
+    /* FIFTH SECTION ABOUT US */
+    .aboutus-inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .aboutus-text {
+        width: 70%;
+    }
+    .aboutus-img {
+        width: 30%;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA QUERY */
-
-@media screen and (max-width:476px) {
+@media screen and (min-width:769px) and (max-width:1200px) {
     
 }
